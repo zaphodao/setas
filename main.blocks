@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="m@qK~6(urZ%r|S5p/jbz" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id=";j{;fFVun%[*r?)wTd:}"><field name="i">IconNames.Ghost</field></block></statement></block><block type="device_forever" id="42sju2(=|;Nfu`r1^MYh" x="368" y="-2"></block><block type="device_gesture_event" id="-t*-*-VJ~;byQqA$7(kq" x="51" y="256"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="aV8z@qnfa#Xn4_%hE.!B"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></statement></block><block type="device_gesture_event" id="Nf8dH$4Tk.-h0/-NX]ec" x="366" y="258"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="%{|C(iWFdhb|(ps!qYk{"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></statement></block><block type="device_gesture_event" id="7gMF}.2dsh#AS8BNSVh?" x="50" y="599"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="L|_r)K-2-(Sl^/YVNT_m"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block><block type="device_gesture_event" id="2{[bEW?m_G,uCb)4nH0-" x="392" y="604"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="device_show_leds" id="~Oq(vA|sg3_1EhNCo{y!"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block><block type="device_button_event" id="eL.8H51`/(f%s8G-f*bt" x="47" y="957"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="input_compass_calibrate" id="wg@q1$H]L?:)`zXHllv0"></block></statement></block><block type="device_button_event" id="knZu)cj9NGc}AMrO8qBf" x="359" y="972"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_arrow" id="{UX7JJonhv?fq(~wfuEw"><value name="i"><shadow type="device_arrow"><field name="arrow">ArrowNames.North</field></shadow><block type="device_heading" id=",,FquiwJhvg1:o1A./=m"></block></value></block></statement></block></xml>
